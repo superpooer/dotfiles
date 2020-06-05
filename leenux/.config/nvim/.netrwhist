@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/nico/.config'
+let g:netrw_dirhist_5='/home/nico/.moonchild productions/pale moon/eej4bgqi.default'
+let g:netrw_dirhist_4='/home/nico/.local/src/pizzzahud/resource'
+let g:netrw_dirhist_3='/home/nico/.config/sxhkd'
+let g:netrw_dirhist_2='/home/nico/.local/src/wine-stable/.git'
+let g:netrw_dirhist_1='/home/nico/.local/src/st.git'
+let g:netrw_dirhist_0='/home/nico/.config/bspwm/bspwm'
+let g:netrw_dirhist_9='/home/nico/.config/dconf'
+let g:netrw_dirhist_8='/home/nico/.config/bspwm/bspwm'
+let g:netrw_dirhist_7='/home/nico/.local/bin/i3cmds'
