@@ -1,0 +1,21 @@
+{
+  "settingsVersion": "1.66",
+  "exclusionRules": [],
+  "filterLinkHints": true,
+  "waitForEnterForFilteredHints": false,
+  "hideHud": false,
+  "keyMappings": "unmap t\nunmap f\nunmap zH\nunmap zL\nunmap F\nunmap <a-f>\nunmap yf\nunmap <<\nunmap >>\nunmap ^\nunmap m\nmap e LinkHints.activateMode\nmap E LinkHints.activateModeToOpenInNewTab\nmap <a-e> LinkHints.activateModeWithQueue\nmap De LinkHints.activateModeToDownloadLink\nmap ye LinkHints.activateModeToCopyLinkUrl\nmap <a-n> Marks.activateCreateMode swap\nmap ` Marks.activateGoToMode swap\nmap ' moveTabLeft\nmap # moveTabRight\nmap c visitPreviousTab\nmap <c-e> LinkHints.activateMode action=hover\nmap M toggleMuteTab\nmap <a-m> toggleMuteTab other\nmap <a-M> toggleMuteTab all\nmap R reload hard",
+  "linkHintCharacters": "qwertyuiopasdfghjklzxcvbnm",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": false,
+  "grabBackFocus": true,
+  "searchEngines": "s: https://www.startpage.com/do/search?query=%s StartPage\nwiki: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\ny: https://www.youtube.com/results?search_query=%s Youtube\nmap: https://www.google.com/maps?q=%s Google Maps\nyh: https://uk.search.yahoo.com/search?p=%s Yahoo (MOVIE_NAME FREE ONLY pls)\npic: https://www.startpage.com/sp/search?language=english&abp=1&op=un10&lui=english&pg=0&t=default&prfh=enable_stay_controlEEE0N1NsuggestionsEEE1N1Ngeo_mapEEE1N1Nwikipedia_iaEEE1N1Nother_iaEEE1N1Ndisable_open_in_new_windowEEE1N1Ndisable_video_family_filterEEE1N1Nenable_post_methodEEE0N1Nenable_proxy_safety_suggestEEE0N1Ndisable_family_filterEEE1N1Nconnect_to_serverEEEeuN1NsslEEE1N1Nlanguage_uiEEEenglishN1NlanguageEEEenglishN1Nwt_unitEEEcelsiusN1Nnum_of_resultsEEE20N1Nlang_homepageEEEs%2Fdefault%2Fen%2F&query=%s&cat=pics&sc=ufsm6m5JYUNO20 StartPage Images (NO SAFE)\netym: https://www.etymonline.com/search?q=%s etymonline\nabbr: https://www.abbreviations.com/%s Abbreviations\nebay: https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=%s&_sacat=0 EBay\namzn: https://www.amazon.co.uk/s?k=%s&ref=nb_sb_noss Amazon\nimdb: https://www.imdb.com/find?q=%s&ref_=nv_sr_sm IMDb\nimcdb: https://www.imcdb.org/movies.php?title=%s IMCDb\nimfdb: http://www.imfdb.org/index.php?search=%s&go=Go&title=Special%3ASearch IMFDb\ntrans: http://translate.google.com/?text=%s Google Translate\nss: https://www.google.com/search?q=%s&sitesearch=ss64.com ss64\ndic: https://www.merriam-webster.com/dictionary/%s Merriam-Webster Dictionary",
+  "searchUrl": "https://www.startpage.com/do/search?query=",
+  "userDefinedLinkHintCss": "*{\nfont-family: \"Consolas\", monospace !important;\n}\ndiv > .vimiumHintMarker {\n/* linkhint boxes */\nfont-family: \"Consolas\", monospace;\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
