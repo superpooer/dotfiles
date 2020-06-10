@@ -11,5 +11,6 @@ echo I       cmdgfx frog shooting BLANK rp        I
 echo I       temple on spare hdd/thiccpad         I
 echo I       learn latex by answerin q217         I
 echo I       put vimrc on gh n diff               I
+echo I       make asmblr/disasm/remof ollydbg     I
 echo I                                            I
 echo ----------------------------------------------
