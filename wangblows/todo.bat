@@ -12,5 +12,6 @@ echo I       temple on spare hdd/thiccpad         I
 echo I       learn latex by answerin q217         I
 echo I       put vimrc on gh n diff               I
 echo I       make asmblr/disasm/remof ollydbg     I
+echo I       put misc projects on gh              I
 echo I                                            I
 echo ----------------------------------------------
