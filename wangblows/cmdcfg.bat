@@ -24,6 +24,7 @@ doskey time=time /t
 doskey c=cd C:\
 doskey vrc=v C:\Users\tehep\Appdata\Local\nvim\init.vim
 doskey vimfiles=cd "C:\Program Files\Neovim\share\nvim\runtime"
+doskey cmdcfg=v %USERPROFILE%\repos\dotfiles\wangblows\cmdcfg.bat
 doskey sound=start control mmsys.cpl sounds
 doskey com=schtasks /run /tn cmd_elev
 doskey common=cd "C:\Program Files\Steam\steamapps\common"
