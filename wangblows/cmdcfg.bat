@@ -38,6 +38,8 @@ doskey sda=shutdown /a
 doskey bb=mpc C:\Users\tehep\Music\ambientdump /randomize
 doskey chud=cd "C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custom\pizzzahud"
 doskey tox="C:\Program Files\qTox\bin\qtox.exe" $*
+doskey pwd=cd
+::^^pwd takes fucking forever and im pretty sure its from msys, cd or cd. does the same thing for less waiting
 
 
 
