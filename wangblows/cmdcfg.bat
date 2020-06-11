@@ -3,7 +3,7 @@ color 02
 cd C:\Users\tehep
 PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tehep\games;C:\Users\tehep\tools;C:\Program Files\yt-dl;C:\Program Files\Vim\vim81;C:\Program Files\ffmpeg\bin;C:\MinGW\bin;C:\Program Files\nircmd;C:\Program Files\Neovim\bin;C:\Program Files\7-zip;C:\Windows\System32\OpenSSH;C:\MinGW\msys\1.0\bin;C:\Program Files\mpv;C:\Program Files\MPC-HC;C:\Program Files\tcc;C:\Program Files\Git\bin;C:\Program Files\SumatraPDF;C:\Program Files\TortoiseSVN\bin;
 title 
-prompt $$ 
+prompt $$$S
 doskey cls=%USERPROFILE%\repos\dotfiles\wangblows\todo.bat
 doskey pf=cd "C:\Program Files"
 doskey x86=cd "C:\Program Files (x86)"
@@ -24,7 +24,6 @@ doskey time=time /t
 doskey c=cd C:\
 doskey vrc=v C:\Users\tehep\Appdata\Local\nvim\init.vim
 doskey vimfiles=cd "C:\Program Files\Neovim\share\nvim\runtime"
-doskey cmdcfg=v %USERPROFILE%\repos\dotfiles\wangblows\cmdcfg.bat
 doskey sound=start control mmsys.cpl sounds
 doskey com=schtasks /run /tn cmd_elev
 doskey common=cd "C:\Program Files\Steam\steamapps\common"
@@ -40,6 +39,8 @@ doskey chud=cd "C:\Program Files\Steam\steamapps\common\Team Fortress 2\tf\custo
 doskey tox="C:\Program Files\qTox\bin\qtox.exe" $*
 doskey pwd=cd
 ::^^pwd takes fucking forever and im pretty sure its from msys, cd or cd. does the same thing for less waiting
+doskey cmdcfg=v %USERPROFILE%\repos\dotfiles\wangblows\cmdcfg.bat
+doskey todocfg=v %USERPROFILE%\repos\dotfiles\wangblows\todo.bat
 
 
 
