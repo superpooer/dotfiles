@@ -13,5 +13,6 @@ echo I    learn latex by answerin q217         I
 echo I    diff vimrc                           I
 echo I    make asmblr/disasm                   I
 echo I    bulkrenamer.bat                      I
+echo I    rejig .bats in2 scripts dir          I
 echo I                                         I
 echo -------------------------------------------
