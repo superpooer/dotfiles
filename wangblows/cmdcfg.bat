@@ -1,7 +1,7 @@
 @ECHO off
 color 02
 cd C:\Users\tehep
-PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tehep\games;C:\Users\tehep\tools;C:\Program Files\yt-dl;C:\Program Files\Vim\vim81;C:\Program Files\ffmpeg\bin;C:\MinGW\bin;C:\Program Files\nircmd;C:\Program Files\Neovim\bin;C:\Program Files\7-zip;C:\Windows\System32\OpenSSH;C:\MinGW\msys\1.0\bin;C:\Program Files\mpv;C:\Program Files\MPC-HC;C:\Program Files\tcc;C:\Program Files\Git\bin;C:\Program Files\SumatraPDF;C:\Program Files\TortoiseSVN\bin;
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\tehep\games;C:\Users\tehep\tools;C:\Program Files\yt-dl;C:\Program Files\Vim\vim81;C:\Program Files\ffmpeg\bin;C:\MinGW\bin;C:\Program Files\nircmd;C:\Program Files\Neovim\bin;C:\Program Files\7-zip;C:\Windows\System32\OpenSSH;C:\MinGW\msys\1.0\bin;C:\Program Files\mpv;C:\Program Files\MPC-HC;C:\Program Files\tcc;C:\Program Files\Git\bin;C:\Program Files\SumatraPDF;C:\Program Files\TortoiseSVN\bin;C:\Program Files\fasm;
 title 
 prompt $$$S
 doskey cls=%USERPROFILE%\repos\dotfiles\wangblows\todo.bat
