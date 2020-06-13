@@ -46,4 +46,4 @@ doskey todocfg=v %USERPROFILE%\repos\dotfiles\wangblows\todo.bat
 
 
 ::todo also has cls inside
-todo.bat
+%USERPROFILE%\repos\dotfiles\wangblows\todo.bat
