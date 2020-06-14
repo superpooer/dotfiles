@@ -12,7 +12,7 @@ set udf
 set guicursor+=a:blinkon0
 set noexpandtab tabstop=2 shiftwidth=2 softtabstop=2
 
-" highlight column 80
+" highlight column 81 - highlight = VERBOTEN
 highlight ColorColumn ctermbg=LightMagenta ctermfg=black
 call matchadd('ColorColumn', '\%81v', 100)
 
