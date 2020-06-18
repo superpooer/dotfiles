@@ -7,10 +7,10 @@ set wildmenu
 set nu
 set rnu
 set nobackup
-" i would set undodir but im on windows so it all goes to appdata anyway :^)
-set udf
+set udf "i would set undodir but on windows it all goes to appdata anyway :^)
 set guicursor+=a:blinkon0
 set noexpandtab tabstop=2 shiftwidth=2 softtabstop=2
+set linebreak "break lines only on whitespace
 
 " highlight column 81 - highlight = VERBOTEN
 highlight ColorColumn ctermbg=LightMagenta ctermfg=black
@@ -25,14 +25,9 @@ nnoremap <Leader>rv :source $MYVIMRC<CR>
 nnoremap <Leader>o :noh<Enter>
 nnoremap <Leader>t :!start steam://rungameid/440<Enter><Enter>
 
-" bind S global search/replace
-nnoremap S :%s//g<Left><Left>
+nnoremap S :%s//g<Left><Left> "bind S global search/replace
 
-" never save contents of c'd text
-nnoremap c "_c
-
-" Disables automatic commenting on newline:
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+nnoremap c "_c "never save contents of c'd text
 
 " cut, copy and paste to/from system clipboard
 set clipboard+=unnamedplus
@@ -43,5 +38,5 @@ nnoremap <C-k> <C-w><C-k>
 nnoremap <C-h> <C-w><C-h>
 nnoremap <C-l> <C-w><C-l>
 
-" Automatically deletes all trailing whitespace on save.
 autocmd BufWritePre * %s/\s\+$//e
+" Automatically deletes all trailing whitespace on save.
