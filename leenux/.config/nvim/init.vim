@@ -21,6 +21,8 @@ set linebreak "break lines only on whitespace
 set nowrapscan "dont loop file for searches/macros - mainly for macros
 nnoremap : ;
 nnoremap ; :
+vnoremap : ;
+vnoremap ; :
 set encoding=utf-8
 set number relativenumber
 
