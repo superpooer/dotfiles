@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# This file runs when a DM logs you into a graphical session.
+# If you use startx/xinit like a Chad, this file will also be sourced.
+
+#mpd &			# music player daemon-you might prefer it as a service though
+setbg &			# set the background with the `setbg` script
+xrdb ${XDG_CONFIG_HOME:-$HOME/.config}/x11/xresources &	# Uncomment to use Xresources colors/settings on startup
+xcompmgr &		# xcompmgr for transparency
+dunst &			# dunst for notifications
+unclutter &		# Remove mouse when idle
+source ~/.config/x11/xinputrc &

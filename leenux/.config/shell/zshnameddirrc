@@ -1,0 +1,12 @@
+hash -d cac=/home/nico/.cache 
+hash -d cf=/home/nico/.config 
+hash -d D=/home/nico/Downloads 
+hash -d d=/home/nico/Documents 
+hash -d dt=/home/nico/.local/share 
+hash -d h=/home/nico 
+hash -d m=/home/nico/Music 
+hash -d mn=/mnt 
+hash -d pp=/home/nico/Pictures 
+hash -d sc=/home/nico/.local/bin 
+hash -d src=/home/nico/.local/src 
+hash -d vv=/home/nico/Videos 

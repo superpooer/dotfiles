@@ -1,0 +1,9 @@
+[user]
+	email = teh.epik.dukk@gmail.com
+	name = superpooer
+[pull]
+	rebase = true
+[credential]
+	helper = store --file ~/.gitcreds
+[init]
+	defaultBranch = niggermaster
